@@ -48,17 +48,7 @@ header_links:
   - title: "Contact"
     url: /contact/
 
-# Collections
-collections:
-  research:
-    output: true
-    permalink: /research/:path/
-  publications:
-    output: true
-    permalink: /publications/:path/
-  contact:
-    output: true
-    permalink: /contact/
+
 
 # Plugins (previously gems:)
 plugins:
