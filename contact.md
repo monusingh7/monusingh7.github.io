@@ -6,7 +6,7 @@ permalink: /contact/
 
 ## Contact Information
 
-📧 Email: [your-email@example.com](mailto:your-email@example.com)  
-🔗 GitHub: [yourusername](https://github.com/yourusername)  
-📄 Google Scholar: [your-google-scholar-profile](#)  
-🎓 ORCID: [your-orcid-profile](#)  
+📧 Email: [monu18@iitg.ac.in](monu18@iitg.ac.in)  
+🔗 GitHub: [github](https://github.com/monusingh7)  
+📄 Google Scholar: [your-google-scholar-profile](https://scholar.google.com/citations?user=8AiPfV4AAAAJ&hl=en)  
+🎓 ORCID: [Orcid-profile](0000-0001-5801-0218)  
