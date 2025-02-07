@@ -16,8 +16,7 @@ permalink: /publications/
    *JCAP, 2025*  
    [🔗 ArXiv Link](https://arxiv.org/abs/2408.02256))
 
-3. **Role of thermal conduction in relativistic magnetized accretion flows around rotating black holes
-with shocks**
+3. **Role of thermal conduction in relativistic magnetized accretion flows around rotating black holes with shocks**
    *Monu Singh, Camelia Jana, Santabrata Das*
    *2025, Submitted to JHEAP*
 
