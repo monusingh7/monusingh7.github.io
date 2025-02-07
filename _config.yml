@@ -126,6 +126,11 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/me_nalayak"
+# Sidebar Layout
+sidebar:
+  - name: "Researcher Profile"
+    image: "/assets/images/profile.jpg"
+    bio: "I study accretion physics around black holes."
 
 #defaults:
 #  # _posts
