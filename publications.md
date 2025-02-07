@@ -13,6 +13,6 @@ permalink: /publications/
 2. **[Title of Paper 2]**  
    *Your Name, Co-Authors*  
    *Journal Name, Year*  
-   [🔗 DOI / ArXiv Link](#)
+   [🔗 DOI / ArXiv Link (https://arxiv.org/abs/2408.02256)](#)
 
 _For a full list of publications, visit my [Google Scholar](your-google-scholar-profile)._
