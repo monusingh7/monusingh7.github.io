@@ -33,6 +33,10 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 include:
   - _pages
 
+header:
+  image: /assets/images/black_hole.png
+  caption: "Photo credit: [**William Alston**](https://communities.springernature.com/posts/x-ray-reverberation-measurements-of-black-hole-mass-and-spin)"
+
 # Navigation Menu (Upper Right Side)
 header_links:
   - title: "Home"
@@ -43,10 +47,6 @@ header_links:
     url: /publications/
   - title: "Contact"
     url: /contact/
-
-header:
-  image: /assets/images/black_hole.png
-  caption: "Photo credit: [**William Alston**](https://communities.springernature.com/posts/x-ray-reverberation-measurements-of-black-hole-mass-and-spin)"
 
 
 # Plugins (previously gems:)
