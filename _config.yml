@@ -33,9 +33,16 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 include:
   - _pages
 
+
+excerpt: "This post should display a **header with an overlay image**, if the theme supports it."
 header:
-  image: "/assets/images/black_hole.png"
+  overlay_image: "/assets/images/black_hole.png"
   caption: "Photo credit: [**William Alston**](https://communities.springernature.com/posts/x-ray-reverberation-measurements-of-black-hole-mass-and-spin)"
+  actions:
+    - label: "More Info"
+      url: "https://unsplash.com"
+
+
 
 # Navigation Menu (Upper Right Side)
 header_links:
