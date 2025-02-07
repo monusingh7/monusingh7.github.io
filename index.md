@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Dr. [Your Name]"
+title: ""
 permalink: /
 author_profile: true
 ---
