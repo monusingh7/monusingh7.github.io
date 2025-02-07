@@ -8,7 +8,7 @@ permalink: /publications/
 1. **Properties of relativistic hot accretion flow around rotating black hole with radially varying viscosity**  
    *Monu Singh, Santabrata das*  
    *Astrophysics and Space Science, 2024*
-   -[DOI LINK]([🔗 DOI)
+   -[🔗 DOI Link]( 10.1007/s10509-023-04263-6)
    -[🔗 ArXiv Link](https://arxiv.org/abs/2312.16001)
 
 3. **Role of thermal conduction in relativistic hot accretion flow around rotating black hole with shock**  
