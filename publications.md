@@ -14,10 +14,11 @@ permalink: /publications/
 2. **Role of thermal conduction in relativistic hot accretion flow around rotating black hole with shock**  
    *Monu Singh, Santabrata Das*  
    *JCAP, 2025*  
-   [🔗 ArXiv Link](https://arxiv.org/abs/2408.02256))
+   [🔗 ArXiv Link](https://arxiv.org/abs/2408.02256)
 
-3. **Role of thermal conduction in relativistic magnetized accretion flows around rotating black holes with shocks**
-   *Monu Singh, Camelia Jana, Santabrata Das*
-   *2025, Submitted to JHEAP*
+3. **Role of thermal conduction in relativistic magnetized accretion flows around rotating black holes with shocks**  
+   *Monu Singh, Camelia Jana, Santabrata Das*  
+   *Submitted to JHEAP, 2025*  
+
 
 _For a full list of publications, visit my [Google Scholar](your-google-scholar-profile)._
