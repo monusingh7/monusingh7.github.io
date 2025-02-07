@@ -34,7 +34,7 @@ include:
   - _pages
 
 header:
-  image: /assets/images/black_hole.png
+  image: "/assets/images/black_hole.png"
   caption: "Photo credit: [**William Alston**](https://communities.springernature.com/posts/x-ray-reverberation-measurements-of-black-hole-mass-and-spin)"
 
 # Navigation Menu (Upper Right Side)
