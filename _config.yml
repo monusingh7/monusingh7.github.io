@@ -1,15 +1,15 @@
 # Site Settings
-title: "Mr. [Monu Singh]"
+title: "Dr. [Your Name]"
 description: "Astrophysicist | Researcher in Black Hole Accretion"
 remote_theme: "mmistakes/minimal-mistakes"
-logo: "/assets/images/me.jpg"
+logo: "/assets/images/profile.jpg"
 url: "https://yourusername.github.io"
 baseurl: ""
 
 # Author Profile
 author:
-  name: "Mr. [Monu Singh]"
-  avatar: "/assets/images/me.jpg"
+  name: "Dr. [Your Name]"
+  avatar: "/assets/images/profile.jpg"
   bio: "I study black hole accretion, thermal conduction, and high-energy astrophysics."
   email: "your-email@example.com"
   github: "yourusername"
@@ -25,10 +25,20 @@ nav:
     url: /research/
   - title: "Publications"
     url: /publications/
-  - title: "Blog"
-    url: /blog/
   - title: "Contact"
     url: /contact/
+
+# Collections
+collections:
+  research:
+    output: true
+    permalink: /research/:path/
+  publications:
+    output: true
+    permalink: /publications/:path/
+  contact:
+    output: true
+    permalink: /contact/
 
 # Sidebar Configuration
 defaults:
@@ -37,15 +47,14 @@ defaults:
     values:
       sidebar:
         nav: "main"
-
-# Enable Table of Contents (TOC) for Research and Publications Pages
-defaults:
   - scope:
-      path: "research.md"
+      path: "_research"
+      type: research
     values:
       toc: true
   - scope:
-      path: "publications.md"
+      path: "_publications"
+      type: publications
     values:
       toc: true
 
