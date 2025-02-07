@@ -13,29 +13,29 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Monu Singh
-email: monu18@iitg.ac.in
-description: >- # this means to ignore newlines until "baseurl:"
+#title: Monu Singh
+#email: monu18@iitg.ac.in
+#description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-twitter_username: me_nalayak
-github_username: monusingh7
-instagram_username: me_nalayak
-minimal_mistakes_skin: default
-search: true
+#twitter_username: me_nalayak
+#github_username: monusingh7
+#instagram_username: me_nalayak
+#minimal_mistakes_skin: default
+#search: true
 
 # Build settings
-markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+#markdown: kramdown
+#remote_theme: mmistakes/minimal-mistakes
 # Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+#permalink: /:categories/:title/
+#paginate: 5 # amount of posts to show
+#paginate_path: /page:num/
+#timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-include:
-  - _pages
+#include:
+#  - _pages
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -50,31 +50,70 @@ include:
 #   - vendor/ruby/
 
 # Plugins (previously gems:)
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
+#plugins:
+#  - jekyll-paginate
+#  - jekyll-sitemap
+#  - jekyll-gist
+#  - jekyll-feed
+#  - jemoji
+#  - jekyll-include-cache
 
+#author:
+#  name   : "Monu Singh"
+#  avatar : "/assets/images/me.jpg"
+#  bio    : "My awesome biography constrained to a sentence or two goes here. I endeavour to map the concealed terrains of the universe by studying the phenomenon of accretion surrounding black holes."
+#  links:
+#    - label: "Website"
+#      icon: "fas fa-fw fa-link"
+#      url: "https://"
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      url: "https://twitter.com/me_nalayak"
+#    - label: "GitHub"
+#      icon: "fab fa-fw fa-github"
+#      url: "https://github.com/monusingh7"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+#      url: "https://instagram.com/me_nalayak"
+
+# Site Settings
+title: "Mr. [Monu Singh]"
+description: "Astrophysicist | Researcher in Black Hole Accretion"
+logo: "/assets/images/me.jpg"  # Update this path
+theme: minimal-mistakes-jekyll
+url: "https://monusingh7.github.io"
+baseurl: ""
+
+# Navigation Menu
+nav:
+  - title: "Home"
+    url: /
+  - title: "Research"
+    url: /research/
+  - title: "Publications"
+    url: /publications/
+  - title: "Blog"
+    url: /blog/
+  - title: "Contact"
+    url: /contact/
+
+# Author Information
 author:
-  name   : "Monu Singh"
-  avatar : "/assets/images/me.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here. I endeavour to map the concealed terrains of the universe by studying the phenomenon of accretion surrounding black holes."
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/me_nalayak"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/monusingh7"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/me_nalayak"
+  name: "Dr. [Monu Singh]"
+  avatar: "/assets/images/me.jpg"  # Update with your photo
+  bio: "I study thermal conduction and accretion flows around rotating black holes."
+  email: "monu18@iitg.ac.in"
+  github: "monusingh7"
+  linkedin: "your-linkedin-profile"
+  google_scholar: "your-google-scholar-profile"
+  orcid: "your-orcid-profile"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-archives
+
 
 footer:
   links:
@@ -88,29 +127,29 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/me_nalayak"
 
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+#defaults:
+#  # _posts
+#  - scope:
+#      path: ""
+#      type: posts
+#    values:
+#      layout: single
+#      author_profile: true
+#      read_time: true
+#      comments: true
+#      share: true
+#      related: true
+#  # _pages
+#  - scope:
+#      path: "_pages"
+#      type: pages
+#    values:
+#      layout: single
+#      author_profile: true
 
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+#category_archive:
+#  type: liquid
+#  path: /categories/
+#tag_archive:
+#  type: liquid
+#  path: /tags/
