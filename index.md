@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Mr. [Monu Singh]"
+title: "Monu Singh"
 permalink: /
 author_profile: true
 ---
