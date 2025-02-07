@@ -16,9 +16,7 @@
 title: Monu Singh
 email: monu18@iitg.ac.in
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Welcome to my personal website. Here, you can find details about my research, publications, and ways to contact me.
 twitter_username: me_nalayak
 github_username: monusingh7
 instagram_username: me_nalayak
@@ -29,9 +27,7 @@ search: true
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
-permalink: /:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+permalink: /
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
@@ -41,14 +37,16 @@ include:
 header_links:
   - title: "Home"
     url: /
-
-
+  - title: "Research"
+    url: /research/
+  - title: "Publications"
+    url: /publications/
+  - title: "Contact"
+    url: /contact/
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
@@ -56,11 +54,8 @@ plugins:
 author:
   name   : "Monu Singh"
   avatar : "/assets/images/me.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here. I endeavour to map the concealed terrains of the universe by studying the phenomenon of accretion surrounding black holes."
+  bio    : "I endeavour to map the concealed terrains of the universe by studying the phenomenon of accretion surrounding black holes."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/me_nalayak"
@@ -93,4 +88,3 @@ defaults:
       permalink: /
       title: "Home"
       description: "Welcome to my website, where I share my research, publications, and more."
-
