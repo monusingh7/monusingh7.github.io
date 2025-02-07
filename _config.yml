@@ -17,10 +17,8 @@ author:
   google_scholar: "your-google-scholar-profile"
   orcid: "your-orcid-profile"
 
-# Navigation Menu
-nav:
-  - title: "Home"
-    url: /
+# Header Navigation (Upper Right Side)
+header_links:
   - title: "Research"
     url: /research/
   - title: "Publications"
@@ -39,24 +37,6 @@ collections:
   contact:
     output: true
     permalink: /contact/
-
-# Sidebar Configuration
-defaults:
-  - scope:
-      path: ""
-    values:
-      sidebar:
-        nav: "main"
-  - scope:
-      path: "_research"
-      type: research
-    values:
-      toc: true
-  - scope:
-      path: "_publications"
-      type: publications
-    values:
-      toc: true
 
 # Theme Settings
 minimal_mistakes_skin: "default"
