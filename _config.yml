@@ -84,11 +84,13 @@ footer:
       url: "https://instagram.com/me_nalayak"
 
 defaults:
-  # _pages
+  # Set Home as the only visible page
   - scope:
-      path: "_pages"
-      type: pages
+      path: ""
     values:
       layout: single
       author_profile: true
       permalink: /
+      title: "Home"
+      description: "Welcome to my website, where I share my research, publications, and more."
+
