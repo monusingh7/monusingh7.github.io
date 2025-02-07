@@ -44,6 +44,11 @@ header_links:
   - title: "Contact"
     url: /contact/
 
+header:
+  image: /assets/images/black_hole.png
+  caption: "Photo credit: [**William Alston**](https://communities.springernature.com/posts/x-ray-reverberation-measurements-of-black-hole-mass-and-spin)"
+
+
 # Plugins (previously gems:)
 plugins:
   - jekyll-sitemap
