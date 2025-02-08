@@ -12,4 +12,5 @@ header:
 
 ## The following intriguing items may be of interest and use to those who study physics or related fields:
 - [The James Webb Space Telescope page](https://webbtelescope.org/home)
+- Lecture notes on Astrophysical Hydrodynamics by Prof. Yosuke Mizuno [Link](https://web.tdli.sjtu.edu.cn/mizuno/astrophysical-hydrodynamics/)
 
