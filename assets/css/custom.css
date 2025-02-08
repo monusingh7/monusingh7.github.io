@@ -1,6 +1,15 @@
-/* Custom Background for Publications and Contact Pages */
-.page-header {
-  background-attachment: fixed;
+/* Publications Page */
+.page-id-publications .page-header {
+  background-image: url('/assets/images/publications_bg.jpg');
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
+/* Contact Page */
+.page-id-contact .page-header {
+  background-image: url('/assets/images/contact_bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
