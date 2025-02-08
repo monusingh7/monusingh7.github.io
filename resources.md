@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Research"
-permalink: /research/
+title: "Resources"
+permalink: /resources/
 author_profile: false
 header:
   overlay_image: "/assets/images/black_hole.png"
