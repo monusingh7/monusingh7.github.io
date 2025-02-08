@@ -6,10 +6,10 @@ permalink: /research/
 
 ## Research Interests
 - Black hole accretion and thermal conduction
-- Magnetohydrodynamics (MHD) simulations
+- Magnetohydrodynamics (MHD)
 - High-energy astrophysics and relativistic jets
 
 ## Current Projects
 - Studying the impact of thermal conduction in accretion disks
 - Investigating black hole spin dependence on matter inflow
-- Collaborating on large-scale simulations of relativistic plasmas
+- Properties of relativistic hot accretion ﬂow around a rotating black hole with radially varying viscosity
