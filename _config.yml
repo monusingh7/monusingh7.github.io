@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Monu Singh
-logo: "/assets/images/black_hole.png"
+logo: "/assets/images/DALL·E 2025-02-09 01.03.03 - A highly detailed visualization of accretion flows around a rotating black hole. The image showcases a luminous accretion disk spiraling inward with b.webp"
 email: monu18@iitg.ac.in
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my personal website. Here, you can find details about my research, publications, and ways to contact me.
