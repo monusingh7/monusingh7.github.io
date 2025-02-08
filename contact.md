@@ -3,7 +3,7 @@ layout: single
 title: "Contact"
 permalink: /contact/
 header:
-  overlay_image: "/assets/images/black_hole.jpg"
+  overlay_image: "/assets/images/black_hole.png"
   overlay_filter: 0.3
   caption: "Reach out to me."
 custom_css: "page-id-contact"
