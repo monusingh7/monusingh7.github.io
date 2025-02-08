@@ -1,0 +1,6 @@
+/* Custom Background for Publications and Contact Pages */
+.page-header {
+  background-attachment: fixed;
+  background-size: cover;
+}
+
