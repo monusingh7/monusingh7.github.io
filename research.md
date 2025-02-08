@@ -11,7 +11,7 @@ header:
 ---
 
 ## Research Interests
-- Black hole accretion and thermal conduction
+- Accretion flows around Black holes
 - Magnetohydrodynamics (MHD)
 - High-energy astrophysics and relativistic jets
 
