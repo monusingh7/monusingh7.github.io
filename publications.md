@@ -1,10 +1,16 @@
 ---
-layout: page
+layout: single
 title: "Publications"
 permalink: /publications/
+author_profile: true
+header:
+  overlay_image: "/assets/images/black_hole.png"
+  overlay_filter: 0.3 # Adjust transparency (0 = no darkening, 1 = fully dark)
+  caption: "Photo credit: [William Alston](https://communities.springernature.com/posts/x-ray-reverberation-measurements-of-black-hole-mass-and-spin)"
 ---
 
-## Selected Publications
+Here is a list of my published research papers...
+
 1. **Properties of relativistic hot accretion flow around rotating black hole with radially varying viscosity**  
    *Monu Singh, Santabrata Das*  
    *Astrophysics and Space Science, 2024*
