@@ -1,7 +1,13 @@
 ---
-layout: page
-title: "Research"
-permalink: /research/
+layout: single
+title: "Publications"
+permalink: /publications/
+author_profile: false
+header:
+  overlay_image: "/assets/images/black_hole.png"
+  overlay_filter: 0.3 # Adjust transparency (0 = no darkening, 1 = fully dark)
+  caption: "Photo credit: [William Alston](https://communities.springernature.com/posts/x-ray-reverberation-measurements-of-black-hole-mass-and-spin)"
+  custom_css: "page-id-research"
 ---
 
 ## Research Interests
