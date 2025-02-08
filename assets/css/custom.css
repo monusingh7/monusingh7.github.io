@@ -1,15 +1,17 @@
-/* Publications Page */
+/* Background for Publications Page */
 .page-id-publications .page-header {
   background-image: url('/assets/images/publications_bg.jpg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-size: cover; /* Adjusts the image to cover the entire header */
+  background-position: center center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling */
+  height: 400px; /* Set a fixed height */
 }
 
-/* Contact Page */
+/* Background for Contact Page */
 .page-id-contact .page-header {
   background-image: url('/assets/images/contact_bg.jpg');
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 400px;
 }
