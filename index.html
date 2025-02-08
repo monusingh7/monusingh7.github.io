@@ -5,3 +5,192 @@
 layout: home
 author_profile: true
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Hole Astrophysics Research</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Cosmic theme variables */
+        :root {
+            --cosmic-black: #0a031a;
+            --neon-cyan: #00ffff;
+            --accent-purple: #6a1b9a;
+            --dark-bg: rgba(0, 0, 0, 0.8);
+        }
+
+        /* Base styles */
+        body {
+            margin: 0;
+            background: var(--cosmic-black);
+            color: #fff;
+            font-family: 'Lato', sans-serif;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Orbitron', sans-serif;
+            color: var(--neon-cyan);
+        }
+
+        /* Hero section */
+        .hero {
+            height: 100vh;
+            background: 
+                linear-gradient(45deg, rgba(10, 3, 26, 0.9) 30%, rgba(0, 103, 124, 0.6)),
+                url('https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero-content {
+            padding: 2rem;
+            text-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin: 0;
+        }
+
+        /* Sticky navigation */
+        .sticky-nav {
+            position: sticky;
+            top: 0;
+            background: var(--dark-bg);
+            backdrop-filter: blur(10px);
+            padding: 1rem;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .sticky-nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .sticky-nav a:hover {
+            background: rgba(0, 255, 255, 0.1);
+            box-shadow: 0 0 15px cyan;
+        }
+
+        /* Content sections */
+        .section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Research cards */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(0, 255, 255, 0.2);
+            border-radius: 8px;
+            padding: 1.5rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0 25px rgba(0, 255, 255, 0.2);
+        }
+
+        /* Starfield footer */
+        footer {
+            background: #000;
+            padding: 2rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+            background-size: 20px 20px;
+            animation: stars 50s linear infinite;
+        }
+
+        @keyframes stars {
+            from { background-position: 0 0; }
+            to { background-position: 1000px 500px; }
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .sticky-nav { gap: 1rem; }
+            .card-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Probing the Darkness</h1>
+            <p>Unraveling Black Hole Mysteries</p>
+        </div>
+    </section>
+
+    <!-- Navigation -->
+    <nav class="sticky-nav">
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Research Section -->
+    <section class="section" id="research">
+        <h2>Research Areas</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>Black Hole Mergers</h3>
+                <p>Simulating gravitational wave signals from binary black hole collisions.</p>
+            </div>
+            <div class="card">
+                <h3>Accretion Disks</h3>
+                <p>Modeling plasma dynamics in extreme gravitational fields.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2023 [Your Name] | Follow on 
+            <a href="https://twitter.com/yourhandle" style="color: var(--neon-cyan);">Twitter</a>
+        </p>
+    </footer>
+
+    <!-- Optional: Add Plotly script here for graphs -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script>
+        // Add interactive visualizations here
+    </script>
+</body>
+</html>
