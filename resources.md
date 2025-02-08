@@ -11,5 +11,5 @@ header:
 ---
 
 ## The following intriguing items may be of interest and use to those who study physics or related fields:
-- [Hubble page](https://hubblesite.org/home)
+- [The James Webb Space Telescope page](https://webbtelescope.org/home)
 
