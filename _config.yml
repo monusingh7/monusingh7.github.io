@@ -32,6 +32,8 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
+  - assets/css/custom.css
+
 
 
 excerpt: "This post should display a **header with an overlay image**, if the theme supports it."
