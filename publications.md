@@ -20,7 +20,7 @@ Here is a list of my published research papers...
 
 2. **Role of thermal conduction in relativistic hot accretion flow around rotating black hole with shock**  
    *Monu Singh, Santabrata Das*  
-   *Accepted in JCAP, 2025*
+   *Journal of Cosmology and Astroparticle Physics, 2025*
    -[🔗 Journal Link](https://iopscience.iop.org/article/10.1088/1475-7516/2025/02/068)
    -[🔗 arXiv Link](https://arxiv.org/abs/2408.02256)
 
