@@ -31,10 +31,12 @@ Here is a list of my published research papers...
    -[🔗 arXiv link](https://arxiv.org/abs/2502.16829)
 
 4. **Study of mass outflows from magnetized accretion disks around rotating black holes with thermal conduction**
-   *Camelia Jana, Monu Singh, Suvendu Rakshit, Santabrata Das*
+
+   *Camelia Jana, Monu Singh, Suvendu Rakshit, Santabrata Das*  
    *Journal of Cosmology and Astroparticle Physics, 2025*
-   -[🔗 Journal Link](https://iopscience.iop.org/article/10.1088/1475-7516/2025/10/090)
-   -[🔗 arXiv Link](https://arxiv.org/abs/2503.06209)
+
+   - [🔗 Journal Link](https://iopscience.iop.org/article/10.1088/1475-7516/2025/10/090)
+   - [🔗 arXiv Link](https://arxiv.org/abs/2503.06209)
 
 5. **Hybrid disc geometry for shocked accretion flows: Unveiling QPOs in black hole X-ray binaries (Submitted to MNRAS)**
    *Monu Singh, Sudip Garain,  Santabrata Das*
