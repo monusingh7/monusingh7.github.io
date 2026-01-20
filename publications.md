@@ -39,4 +39,4 @@ Here is a list of my published research papers...
    
 
 
-_For a full list of publications, visit my [Google Scholar](your-google-scholar-profile)._
+_For a full list of publications, visit my [Google Scholar](https://scholar.google.com/citations?hl=en&user=8AiPfV4AAAAJ)._
