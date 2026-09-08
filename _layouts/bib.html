@@ -1,27 +1,22 @@
 ---
 ---
-<div class="publication-item" style="margin-bottom: 1.8em;">
-  <p style="margin-bottom: 0.3em;">
-    <strong>{{ entry.title }}</strong>
-  </p>
-  
-  <p style="margin-bottom: 0.25em; color: #555;">
-    <em>{{ entry.author }}</em>
-  </p>
-  
-  <p style="margin-bottom: 0.4em; font-size: 0.95em;">
-    {% if entry.journal %}{{ entry.journal }}{% endif %}{% if entry.year %}, {{ entry.year }}{% endif %}
-  </p>
-
-  <p style="margin-bottom: 0;">
-    {% if entry.url %}
-      <a href="{{ entry.url }}" target="_blank" rel="noopener" style="margin-right: 10px;">[Journal]</a>
-    {% endif %}
-    {% if entry.doi %}
-      <a href="https://doi.org/{{ entry.doi }}" target="_blank" rel="noopener" style="margin-right: 10px;">[DOI]</a>
-    {% endif %}
-    {% if entry.eprint %}
-      <a href="https://arxiv.org/abs/{{ entry.eprint }}" target="_blank" rel="noopener">[arXiv]</a>
+<div class="publication">
+  <p>
+    <strong>{{ entry.title }}</strong><br>
+    <em>{{ entry.author }}</em><br>
+    {{ entry.journal }}{% if entry.year %}, {{ entry.year }}{% endif %}
+    
+    {% if entry.url or entry.doi or entry.eprint %}
+      <br>
+      {% if entry.url %}
+        <a href="{{ entry.url }}" target="_blank" rel="noopener">[Journal]</a>
+      {% endif %}
+      {% if entry.doi %}
+        <a href="https://doi.org/{{ entry.doi }}" target="_blank" rel="noopener">[DOI]</a>
+      {% endif %}
+      {% if entry.eprint %}
+        <a href="https://arxiv.org/abs/{{ entry.eprint }}" target="_blank" rel="noopener">[arXiv]</a>
+      {% endif %}
     {% endif %}
   </p>
 </div>
