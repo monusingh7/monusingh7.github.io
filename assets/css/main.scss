@@ -24,6 +24,14 @@
 
 /* Keep your other custom styles below if needed */
 
+body, p, li {
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Merriweather", Georgia, serif;
+}
+
 /* Background for Publications Page */
 .page-id-publications .page-header {
   background-image: url('/assets/images/publications_bg.jpg');
