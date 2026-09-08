@@ -71,7 +71,7 @@ scholar:
   replace_strings: true
   join_strings: true
 
-  sort_by: none
+  sort_by: year
   group_by: none
 
   use_raw_bibtex_entry: true
