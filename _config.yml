@@ -13,6 +13,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Monu Singh
+url: "https://monusingh7.github.io"
+baseurl: ""          # empty for a user site (username.github.io)
 logo: "/assets/images/DALL·E 2025-02-09 01.03.03 - A highly detailed visualization of accretion flows around a rotating black hole. The image showcases a luminous accretion disk spiraling inward with b.webp"
 email: monu18@iitg.ac.in
 description: >- # this means to ignore newlines until "baseurl:"
