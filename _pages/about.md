@@ -21,4 +21,4 @@ My research focuses on understanding dissipative mechanisms, thermal conduction 
 
 - **B.Sc. (Hons) Physics**  
   University of Delhi, India  
-  *2013
+  2013
