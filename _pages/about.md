@@ -40,7 +40,6 @@ My research focuses on understanding dissipative mechanisms, thermal conduction 
 
 ### Curriculum Vitae
 
-<object data="/assets/images/CV2.pdf" type="application/pdf" width="100%" height="900px">
-  <p>Your browser does not support embedded PDFs. 
-  <a href="/assets/files/CV.pdf" target="_blank">Click here to download the CV</a>.</p>
-</object>
+<a href="/assets/images/CV2.pdf" class="btn btn--primary" target="_blank">
+  Download CV (PDF)
+</a>
