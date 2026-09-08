@@ -4,17 +4,22 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* ===== Increase Author Avatar Size (Left Sidebar) ===== */
+/* ===== Force larger author avatar ===== */
+.sidebar .author__avatar,
 .author__avatar {
-  width: 180px !important;
-  height: 180px !important;
+  width: 200px !important;
+  height: 200px !important;
+  max-width: 200px !important;
 }
 
+.sidebar .author__avatar img,
 .author__avatar img {
-  max-width: 180px !important;
-  width: 180px !important;
-  height: 180px !important;
-  border-radius: 50%;
+  width: 200px !important;
+  height: 200px !important;
+  max-width: 200px !important;
+  max-height: 200px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
 }
 
 /* Keep your other custom styles below if needed */
