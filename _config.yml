@@ -7,7 +7,6 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
@@ -23,21 +22,16 @@ github_username: monusingh7
 instagram_username: me_nalayak
 minimal_mistakes_skin: air
 search: true
-
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 include:
   - _pages
   - assets/css/custom.css
   - index.html
-
-
-
 excerpt: "This post should display a **header with an overlay image**, if the theme supports it."
 header:
   overlay_image: "/assets/images/black_hole.png"
@@ -45,9 +39,6 @@ header:
   actions:
     - label: "More Info"
       url: "https://unsplash.com"
-
-
-
 # Navigation Menu (Upper Right Side)
 header_links:
   - title: "Home"
@@ -58,14 +49,36 @@ header_links:
     url: /publications/
   - title: "Contact"
     url: /contact/
-
-
 # Plugins (previously gems:)
 plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-scholar
+
+# jekyll-scholar settings — drives the {% bibliography %} tag on your Publications page
+scholar:
+  style: apa
+  locale: en
+
+  source: ./_bibliography
+  bibliography: papers.bib
+  bibliography_template: bib
+
+  replace_strings: true
+  join_strings: true
+
+  sort_by: none
+  group_by: none
+
+  use_raw_bibtex_entry: true
+
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+
+  query: "@*"
 
 author:
   name   : "Monu Singh"
@@ -81,7 +94,6 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/me_nalayak"
-
 footer:
   links:
     - label: "Twitter"
@@ -93,7 +105,6 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/me_nalayak"
-
 defaults:
   # _posts
   - scope:
@@ -113,10 +124,9 @@ defaults:
     values:
       layout: single
       author_profile: true
-
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
-  path: /tags/"
+  path: /tags/
