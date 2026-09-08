@@ -1,3 +1,19 @@
+/* Increase author avatar size */
+.author__avatar img {
+  width: 150px !important;      /* Change this value */
+  height: 150px !important;     /* Keep same as width for circle */
+  max-width: 150px !important;
+}
+
+/* Optional: make it a bit larger on desktop */
+@media (min-width: 1024px) {
+  .author__avatar img {
+    width: 180px !important;
+    height: 180px !important;
+    max-width: 180px !important;
+  }
+}
+
 /* Background for Publications Page */
 .page-id-publications .page-header {
   background-image: url('/assets/images/publications_bg.jpg');
