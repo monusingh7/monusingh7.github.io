@@ -1,6 +1,5 @@
 ---
 permalink: /about/
-title: "About"
 ---
 
 Hi, I am **Monu Singh**, a theoretical astrophysicist working on **relativistic hot accretion flows around black holes**.
