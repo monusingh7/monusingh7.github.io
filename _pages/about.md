@@ -40,6 +40,6 @@ My research focuses on understanding dissipative mechanisms, thermal conduction 
 
 ### Curriculum Vitae
 
-<a href="/assets/images/CV2.pdf" class="btn btn--primary" target="_blank">
-  Download CV (PDF)
+<a href="/assets/images/CV2.pdf" class="btn btn--success" target="_blank">
+  CV (PDF)
 </a>
