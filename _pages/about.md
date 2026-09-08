@@ -37,3 +37,10 @@ My research focuses on understanding dissipative mechanisms, thermal conduction 
 🔗 GitHub: [github](https://github.com/monusingh7)  
 📄 Google Scholar: [Google-scholar-profile](https://scholar.google.com/citations?user=8AiPfV4AAAAJ&hl=en)  
 🎓 ORCID: [Orcid-profile](0000-0001-5801-0218) 
+
+### Curriculum Vitae
+
+<object data="/assets/images/CV2.pdf" type="application/pdf" width="100%" height="900px">
+  <p>Your browser does not support embedded PDFs. 
+  <a href="/assets/files/CV.pdf" target="_blank">Click here to download the CV</a>.</p>
+</object>
