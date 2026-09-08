@@ -7,6 +7,14 @@ Hi, I am **Monu Singh**, a theoretical astrophysicist working on **relativistic 
 
 My research focuses on understanding dissipative mechanisms, thermal conduction effects, mass outflows, and the role of magnetic fields in black hole accretion systems using numerical modeling.
 
+### Research Interests
+
+- Relativistic hot accretion flows around black holes  
+- Dissipative mechanisms in accretion flows  
+- Thermal conduction effects  
+- Mass outflows from accretion disks  
+- Numerical modeling of black hole physics
+
 ### Education
 
 - **Ph.D. in Astrophysics**  
