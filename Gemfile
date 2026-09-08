@@ -13,5 +13,5 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jemoji"
   gem "jekyll-include-cache"
-  gem "jekyll-scholar", "~> 7.0"
+  gem "jekyll-scholar"
 end
