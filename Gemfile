@@ -13,6 +13,6 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jemoji"
   gem "jekyll-include-cache"
-  gem "jekyll-remote-theme"          # ← REQUIRED for remote_theme
+  gem "jekyll-remote-theme"          # ← add this line
   gem "jekyll-scholar", "~> 7.0"
 end
