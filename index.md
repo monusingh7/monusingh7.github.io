@@ -9,7 +9,7 @@ header:
 ---
 
 <div class="home-intro">
-  <h1>Welcome to my page</h1>
+  <h1> Welcome to my page </h1>
   <p>I am a <strong>theoretical astrophysicist</strong> researching on <em>accretion physics around black holes, magnetohydrodynamics (MHD), and relativistic jet formation</em>.</p>
 </div>
 
