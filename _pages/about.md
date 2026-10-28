@@ -1,4 +1,7 @@
 ---
+permalink: /about/
+---
+---
 layout: about
 title: about
 permalink: /
