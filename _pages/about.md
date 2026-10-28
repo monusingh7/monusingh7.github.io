@@ -6,7 +6,7 @@ subtitle: Department of Physics, Indian Institute of Technology Guwahati
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: me.jpg
   image_circular: false
   address: >
     <p>Department of Physics</p>
