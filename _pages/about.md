@@ -5,7 +5,9 @@ permalink: /about/
 Hi there, I'm a theoretical astrophysicist working on **relativistic hot accretion flows around black holes**.
 
 My research focuses on understanding dissipative mechanisms, thermal conduction effects, mass outflows, and the role of magnetic fields in black hole accretion systems using numerical modeling.
-
+social: true
+contact_note: >
+  Best to reach me via email.
 ### Research Interests
 
 - Relativistic hot accretion flows around black holes  
